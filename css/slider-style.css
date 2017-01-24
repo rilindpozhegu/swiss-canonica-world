@@ -1,0 +1,177 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../fonts/Montserrat-Black.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url('../fonts/PlayfairDisplay-Italic.otf');
+ }
+
+
+/*
+///////////////////////////////////////////////////
+Slider Style 
+///////////////////////////////////////////////////
+*/
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.logo-slider-over {
+    position: absolute;
+    top:28%;
+    text-align: center !important;
+    font-family: 'Montserrat';
+}
+
+.logo-slider-over h4 {
+	font-family:'PlayfairDisplay-Italic';
+	color: white;
+	opacity: .8;
+	font-size: 32px;
+}
+
+.logo-slider-over h1 {
+	font-size: 60px;
+	color: white;
+	font-family: 'Montserrat-Bold';
+	padding: 5px 0px 20px; 
+}
+
+.logo-slider-over p {
+	color: white;
+	font-family: 'Montserrat-UltraLight';
+	font-size: 15px;
+}
+
+.logo-slider-over button {
+	background-color: #cc0241;
+	color: white; 
+	border: none;
+	font-family: 'Montserrat-UltraLight';
+	height: 33px;
+    width: 110px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+
+/*Maps on the Bottom of the page on all pages! */
+
+.map_section_bottom_home img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*General Footer Section on all Pages!!!*/
+
+.general_footer {
+  background-color: #cc0241;
+  padding: 30px 0px 10px;
+  color: white;
+}
+.footer_navigation_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 10px;
+    overflow: hidden;
+}
+.footer_navigation_list li {
+  float: left;
+  padding: 0px 30px 0px 0px
+}
+.footer_navigation_list a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
+}
+
+
+
+.solial_media_footer {
+  text-align: right;
+}
+
+.solial_media_footer i {
+    color: white;
+    font-size: 22px;
+    padding-left: 22px;
+}
+
+
+
+/*
+///////////////////////////////////////////////////
+Header section On Mobile Devices
+///////////////////////////////////////////////////
+*/
+.header_section_mobile {
+    padding: 90px 5px;
+    text-align: center;
+    color: white;
+}
+
+.header_section_mobile h4 {
+  font-family:'PlayfairDisplay-Italic';
+  color: white;
+  opacity: .8;
+  font-size: 25px;
+  }
+
+.header_section_mobile h1{
+  font-size: 29px;
+  color: white;
+  font-family: 'Montserrat-Bold';
+  padding: 5px 0px 20px;  
+  margin-top: 10px; 
+}
+
+.header_section_mobile p {
+  color: white;
+  font-family: 'Montserrat-UltraLight';
+  font-size: 12px;  
+}
+
+.header_section_mobile button {
+  background-color: #cc0241;
+  color: white; 
+  border: none;
+  font-family: 'Montserrat-UltraLight';
+  height: 33px;
+  width: 110px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+
+

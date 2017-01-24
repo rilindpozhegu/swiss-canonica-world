@@ -1,0 +1,426 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+
+
+/*
+///////////////////////////////////////////////////
+Icons Section Homepage
+///////////////////////////////////////////////////
+*/
+
+.section_icon_home {
+  text-align: center;
+  padding: 50px;
+}
+.icons_text_homepage_first_section {
+  padding: 30px 0px;
+}
+.section_icon_home h3 {
+  font-family: 'Montserrat-Bold';
+  color: #272f34;
+  font-size: 30px;
+}
+.section_icon_home hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 3px solid #cc0241;
+    /*margin: 1em 0;*/
+    padding: 0;
+    width: 10%;
+}
+
+.section_icon_home p {
+  font-family: 'Montserrat-Bold';
+  font-size: 14px;
+}
+
+.section_icon_home button {
+  background-color: #cc0241;
+  color: white; 
+  border: none;
+  font-family: 'Montserrat-UltraLight';
+  height: 40px;
+  width: 170px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+
+
+
+
+/*
+///////////////////////////////////////////////////
+Home Two beautiful sections
+///////////////////////////////////////////////////
+*/
+
+.two_home_sections {
+
+}
+.section_two_red {
+  padding: 100px 70px;
+  background-image: url('../img/section2_red-01.png');
+  background-size: cover;
+}
+
+.section_two_red h5 {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 30px;
+}
+.section_two_red img {
+  width: 250px;
+  margin: 40px 0px;
+}
+.section_two_red p {
+    font-family: 'Montserrat-UltraLight';
+    font-size: 20px;
+    color: white;
+}
+
+.section_two_red button {
+  background-color: transparent;
+  border: white solid 1px;
+  color: white;
+  margin: 30px 0px 0px;  
+  padding: 7px;
+  border-radius: 3px;
+}
+
+
+
+
+/*Gray*/
+.section_two_gray {
+   padding: 100px 70px;
+  background-image: url('../img/section2_gray-01.png');
+  background-size: cover;
+}
+
+.section_two_gray img {
+  width: 250px;
+  margin: 40px 0px;
+  }
+.section_two_gray h5 {
+  color: #272f34;
+  font-family: 'Montserrat-Bold';
+  font-size: 30px;
+}
+
+.section_two_gray p {
+    font-family: 'Montserrat-UltraLight';
+    font-size: 20px;
+    color: #272f34;
+}
+
+.section_two_gray button {
+  background-color: transparent;
+  border: #272f34 solid 1px;
+  color: #272f34;
+  margin: 30px 0px 0px;  
+  padding: 7px;
+  border-radius: 3px;
+}
+
+
+/*
+///////////////////////////////////////////////////
+Testimonial Section
+///////////////////////////////////////////////////
+*/
+
+.testimonails_home_section {
+  padding: 90px 0px;
+}
+
+.testimonails_home_section h3 {
+  font-family: 'Montserrat-Bold';
+  color: white;
+  font-size: 30px; 
+}
+.testimonails_home_section span {
+  color: white; 
+  font-family: 'Montserrat-UltraLight';
+}
+.testimonails_home_section hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 3px solid white;
+    margin: 1em 0;
+    padding: 0;
+    width: 10%;
+}
+
+/*
+***    Testimonial Panel Small ***
+*/
+.testimonails_home_section {
+  background-image: url('../img/testimonial_big-cover-01.png');
+  background-size: cover;
+
+}
+.testimonial_small_panel {
+  background-color: #272f34;
+  color: white;
+  margin: 20px 0px;
+}
+
+.testimonial_small_panel img {
+  width: 100%;
+}
+
+.small_panel_text {
+  background-color: #272f34;
+}
+.testimonial_small_panel h4 {
+  margin-bottom: 0px;
+  font-family: "Montserrat-Bold";
+}
+
+.testimonial_small_panel span {
+  font-family: "Montserrat-UltraLight";
+  font-size: 9px;
+}
+
+.testimonial_small_panel p {
+  font-family: "Montserrat-UltraLight";
+  font-size: 9px;
+
+}
+
+.testimonial_small_panel button {
+  background-color: #cc0241;
+  color: white; 
+  border: none;
+  font-family: 'Montserrat-UltraLight';
+  height: 20px;
+  width: 70px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+} 
+
+.nd-row-testimonials {
+  /*padding: 30px 0px;*/
+}
+
+/*
+///////////////////////////////////////////////////
+Send Message Section Red 
+///////////////////////////////////////////////////
+*/
+
+.new_letter_section {
+  background-color: #cc0241;
+  padding: 20px;
+}
+
+.new_letter_section h1 {
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  color: white;
+  padding-top: 5px;
+  margin-top: 12px;
+}
+
+.input_section_home {
+  text-align: right;
+  padding-top: 20px;
+
+}
+
+.input_section_home input {
+  width: 50%;
+  background-color: transparent;
+  color: white;
+  border-radius: 3px;
+  border: solid 1px white;
+  height: 35px;
+  padding: 0px 10px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+.input_section_home button {
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  border-radius: 3px;
+  width: 20%;
+  height: 35px;
+}
+
+
+/*
+///////////////////////////////////////////////////
+Join Us Section Image And text 
+///////////////////////////////////////////////////
+*/
+
+
+.join_us_section img {
+  width: 100%;
+}
+
+.join_us_section_text {
+  padding: 65px;
+}
+
+.join_us_section_text h3 {
+  font-family: 'Montserrat-Bold';
+  color: #cc0241;
+  font-size: 30px;
+}
+
+.join_us_section_text hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 3px solid #cc0241;
+    margin: 1em 0;
+    padding: 0;
+    width: 20%;
+}
+
+.join_us_section_text p {
+  font-family: 'Montserrat-UltraLight';
+  color: #55565a;
+  font-size: 16px;
+}
+
+.first_btn_join {
+  background-color: #cc0241;
+  color: white;
+  border: none;
+  font-family: 'Montserrat-UltraLight';
+  height: 30px;
+  width: 150px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.second_btn_join {
+  background-color: #272f34;
+  color: white;
+  border: none;
+  font-family: 'Montserrat-UltraLight';
+  height: 30px;
+  width: 150px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .section_icon_home {
+      padding: 50px 10px;
+    }
+    .section_two_red {
+      padding: 57px 10px;
+    }
+    .section_two_gray {
+      padding: 57px 10px;
+    }
+    .new_letter_section {
+      text-align: center;
+    }
+    .new_letter_section h1 {
+      font-size: 22px;
+    }
+    .input_section_home {
+      text-align: center;
+    }
+    .input_section_home input {
+      width: 60%;
+    }
+    .input_section_home button {
+      width: 35%;
+    }
+    .join_us_section_text {
+        padding: 65px 10px;
+    }
+  }

@@ -1,0 +1,241 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+
+.our_history_about h1 {
+	font-family: 'Montserrat-Bold';
+}
+
+.our_history_about {
+	padding: 50px 0px;
+	text-align: center;
+}
+
+.our_history_about img {
+	width: 60%;
+}
+
+.our_history_about h5 {
+	font-family: 'Montserrat-UltraLight';
+	margin-bottom: 3px;
+}
+
+.our_history_about hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #000000;
+    /*margin: 1em 0;*/
+    padding: 0;
+    width: 30%;
+}
+
+.our_history_about p {
+	font-size: 13px;
+	font-family: 'Montserrat-UltraLight';
+}
+
+.about_panels_three {
+	margin-top: 40px;
+	padding: 0px 20px; 
+}
+
+
+
+/*
+///////////////////////////////////////////////////
+More infot About us section
+///////////////////////////////////////////////////
+*/
+.more_info_about {
+	background-color: #272f34;
+}
+.more_info_about img {
+	width: 100%;
+}
+
+
+/*
+///////////////////////////////////////////////////
+Facts Section
+///////////////////////////////////////////////////
+*/
+
+.facts-section {
+	padding: 50px 0px;
+}
+.facts_title {
+	text-align: center;
+	color: #272f34;
+	font-family: "Montserrat-Bold";
+	padding: 40px 0px;
+}
+.more_info_about_text {
+	padding: 40px 40px 0px;
+}
+.more_info_about h3 {
+	color: white;
+	font-family: 'Montserrat-Bold';
+}
+.more_info_about p {
+	color: white;
+}
+
+.border_facts {
+	text-align: center;
+	border-radius: 100%;
+	background-color: #cc0241;
+	padding: 22px;
+}
+
+.border_facts h1 {
+	color: white;
+	font-family: 'Montserrat-Bold';
+	font-size: 51px;
+}
+
+.border_facts span {
+	font-family: 'Montserrat-Bold';
+	color: white;
+}
+
+.fact_section_text {
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.fact_section_text p {
+	text-align: center;
+}
+
+.fact_section_text button {
+  background-color: #cc0241;
+  color: white; 
+  border: none;
+  font-family: 'Montserrat-UltraLight';
+  height: 40px;
+  width: 170px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+/*
+///////////////////////////////////////////////////
+Our Value section About Us page
+///////////////////////////////////////////////////
+*/
+
+.our_values_section {
+	background-image: url('../img/about_us_bg2-01.png');
+	background-size: cover;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 70px;
+}
+.our_values_section h3 {
+	font-family: "Montserrat-Bold";
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.our_values_section p {
+
+}
+.our_values_section img {
+	width: 90%;
+	margin-top: 20px;
+}
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+    .facts_section1 {
+    	padding: 10px 60px;
+	}
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .facts_title {
+    	padding: 20px;
+    }
+	.border_facts {
+		background-color: transparent;
+		text-align: center;
+		padding: 0px;
+	}
+    .border_facts h1 {
+		color: black;
+		font-family: 'Montserrat-Bold';
+		font-size: 35px;
+	}
+	.border_facts span {
+		color: black;
+		font-size: 10px;
+	}
+}    

@@ -1,0 +1,84 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px;
+}
+
+.small_padding-lr {
+  padding: 0px 5px;
+}
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
+
+
+
+.icons_activities {
+	color: #272f34;
+	padding: 50px 0px;
+}
+
+.incon_panel_activities {
+	margin-top: 10px;
+}
+
+.incon_panel_activities img{
+	width: 100%;
+	padding-top: 20px;
+}
+
+.incon_panel_activities h5 {
+	margin-bottom: 3px;
+	font-family: 'Montserrat-Bold';
+	font-size: 17px;
+}
+
+.incon_panel_activities p {
+	font-family: 'Montserrat-UltraLight';
+	font-size: 13px;
+}
